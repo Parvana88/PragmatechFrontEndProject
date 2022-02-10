@@ -1,0 +1,106 @@
+.main-button{
+    display: flex;
+    justify-content: space-evenly;
+    width: 40%;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+ .main-button button{
+     border: none;
+     margin: 10px;
+     padding: 14px 24px;
+     border-radius:5px;
+     font-size: 1rem;
+     outline: none;
+     transition: 1s;
+     box-shadow: 0 0 10px rgba(128, 128, 128, 0.377)
+     
+ }
+
+ .Btn1:hover{
+     background-color: var(--purpledark);
+ }
+.Btn2:hover{
+    background-color: var(--graydark);
+}
+.Btn3:hover{
+    background-color: var(--greendark);
+}
+.Btn4:hover{
+    background-color: var(--orangedark);
+}
+.Btn5:hover{
+    background:var(--yellowdark) ;
+}
+.Btn6:hover{
+    background-color: var(--bluedark);
+}
+.Btn7:hover{
+    background-color: var(--whitedark);
+}
+.Btn8:hover{
+    background-color: var(--darkdark);
+}
+
+
+/* variables */
+:root {
+ --purple :#461c55; 
+ --gray:#c5c8ca;
+ --green:#00a06f;
+ --orange:#fb561c;
+ --yellow:#d9a400;
+ --blue:#4010ae;
+ --white:#e2e6ea;
+ --black:#3d394a;
+ --purpledark:#340842;
+ --graydark:#848586;
+ --greendark:#848586;
+ --orangedark:#c04317;
+ --yellowdark:#947516;
+ --bluedark:#391a80;
+ --whitedark:#bcccda;
+ --blackdark:#adaaba;
+ 
+ 
+}
+
+
+/* Color */
+.color-w{
+    color: white;
+}
+.color-b{
+    color: black;
+}
+
+.Btn1 {
+    background-color: var(--purple);
+}
+
+.Btn2 {
+    background-color: var(--gray);
+}
+.Btn3 {
+    background-color: var(--green);
+}
+.Btn4 {
+    background-color: var(--orange);
+}
+.Btn5 {
+    background-color: var(--yellow);
+}
+.Btn6 {
+    background-color: var(--blue);
+}
+.Btn7 {
+    background-color: var(--white);
+}
+.Btn8 {
+    background-color: var(--black);
+}
+.Btn9 {
+    background-color: white;
+    color:var(--blue)
+}
