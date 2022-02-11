@@ -1,0 +1,34 @@
+#general-info{
+   
+    background: #5f11f0;
+    padding: 15px 0px;
+    color: white;
+    font-family: Averta std;
+}
+.gi-container{
+  
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.gi-container-contact{
+   
+}
+.gi-container-contact span{
+
+    
+    margin: 0px 10px;
+   
+}
+
+.gi-container-contact span i{
+    margin-right: 7.5px;
+}
+
+.gi-container-social{
+   
+}
+.gi-container-social i{
+    margin: 0px 5px;
+}

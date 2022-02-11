@@ -74,7 +74,34 @@
 .color-b{
     color: black;
 }
-
+.color-p{
+    color: purple;
+    border-color: purple;
+}
+.color-g{
+    color: gray;
+    border-color: gray;
+}
+.color-gr{
+    color: green;
+    border-color: #00a06f;
+}
+.color-or{
+    color: orange;
+    border-color: orange;
+    }
+    .color-y{
+        color: yellow;
+        border-color: yellow;
+    }
+    .color-bl{
+        color: blue;
+        border-color: blue;
+    }
+.color-d{
+    color: black;
+    border-color: black;
+}
 .Btn1 {
     background-color: var(--purple);
 }
@@ -103,4 +130,55 @@
 .Btn9 {
     background-color: white;
     color:var(--blue)
+}
+
+.rounded-buttons{
+
+    display: flex;
+    justify-content: space-evenly;
+    width: 40%;
+    flex-wrap: wrap;
+    margin: 0 auto;
+
+}
+
+.rounded-buttons button{
+
+    border: none;
+    margin: 10px;
+    padding: 14px 24px;
+    border-radius:30px;
+    font-size: 1rem;
+    outline: none;
+    transition: 1s;
+    box-shadow: 0 0 10px rgba(128, 128, 128, 0.377)
+
+}
+
+.outlined-buttons{
+    display: flex;
+    justify-content: space-evenly;
+    width: 40%;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    font-size: 0.875rem;
+    line-height: 1;
+    font-weight: 400;
+}
+
+.outlined-buttons button{
+    margin: 10px;
+    padding: 14px 24px;
+    border-radius:5px;
+    background-color: #f0eff7;
+    font-size: 1rem;
+    outline: none;
+    transition: 1s;
+    box-shadow: 0 0 10px rgba(128, 128, 128, 0.377)
+
+}
+
+#container {
+    background: white;
+    border: #461c55;
 }
