@@ -1,0 +1,87 @@
+
+
+:root {
+    --main-color: #5f11f0;
+    --secondary-color: #3b8af3;
+    --white-color:white;
+    --space-1:5px;
+    --space-2:10px;
+    --space-3:15px;
+    --space-4:20px;
+    --space-5:25px;
+    --space-6:30px;
+    
+  }
+
+
+body{
+    font-family: 'Nunito', sans-serif;
+    font-size: 15px;
+}
+
+.container{
+  
+    width: 1200px;
+    margin: 0 auto;
+       
+}
+.flex{
+    display: flex !important;
+}
+.flex-row{
+    flex-direction: row;
+}
+.flex-column{
+    flex-direction: column;
+}
+.justify-content-between{
+    justify-content: space-between !important;
+}
+.justify-content-around{
+    justify-content: space-around !important;
+}
+.justify-content-center{
+    justify-content: center !important;
+}
+.align-items-start{
+    align-items: flex-start;
+}
+.align-items-end{
+    align-items: flex-end;
+}
+.justify-content-end{
+    justify-content: flex-end !important;
+}
+.align-items-center{
+    align-items: center !important;
+}
+.btn{
+    
+    display: inline-block !important;
+}
+.btn-bg-main{
+    background: var(--main-color);
+    color: var(--white-color);
+}
+.btn-bg-secondary{
+    background: var(--secondary-color);
+    color: var(--white-color);
+}
+.btn-small{
+    padding: var(--space-1) var(--space-2) !important;
+}
+.btn-medium{
+    padding: var(--space-2) var(--space-4) !important;
+}
+.btn-large{
+    padding: var(--space-3) var(--space-6) !important;
+}
+.btn-radius-small{
+    border-radius: var(--space-1) 
+}
+.btn-radius-medium{
+    border-radius: var(--space-2)
+}
+.btn-radius-large{
+    border-radius: var(--space-5)
+}

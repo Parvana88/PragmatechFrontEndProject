@@ -1,34 +1,52 @@
-#general-info{
-   
-    background: #5f11f0;
-    padding: 15px 0px;
+#general-info{   
+    background:var(--main-color);
+    padding : var(--space-3) 0px;
     color: white;
-    font-family: Averta std;
-}
-.gi-container{
-  
-    width: 1200px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-}
-.gi-container-contact{
-   
-}
-.gi-container-contact span{
-
     
-    margin: 0px 10px;
-   
 }
+.gi-contact span{    
+    margin: 0px var(--space-2);
+    color: white;
+   }
 
-.gi-container-contact span i{
-    margin-right: 7.5px;
+.gi-contact span i{
+    margin-right: var(--space-1);
 }
+.gi-social i{
+    margin: 0px var(--space-1);
+}
+#navbar{
+    padding: var(--space-3) 0px;
+    background: white;
+}  
+.navbar-navigation ul li a{
+    padding: 0px var(--space-2);
+    font-size: 1,2em;
+    font-weight: 700;
+}
+#font{
 
-.gi-container-social{
-   
 }
-.gi-container-social i{
-    margin: 0px 5px;
+.font-item{
+    height: 800px;
+    background-image:url(../Images/slider-01.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    color: aliceblue;
+}
+h4{
+    color: aliceblue;
+}
+.font-item-content{
+    color: var(--color-white);
+    padding-right: 35%;
+}
+.font-item-content h1{
+    font-size: 4em;
+    text-transform: capitalize;
+}
+.font-item-content h4{
+    font-size: 2em;
 }

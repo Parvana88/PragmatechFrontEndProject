@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="link rel="preconnect href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,700;1,300;1,400;1,500;1,800&display=swap" rel="stylesheet">">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/common.css">
@@ -12,8 +15,8 @@
 </head>
 <body>
     <section id="general-info">
-        <div class="gi-container">
-            <div class="gi-container-contact">
+        <div class="container flex justify-content-between">
+            <div class="gi-contact">
                 <span>
                     <i class="fa-solid fa-house-chimney"></i>
                     92 Bowery St New York, NY 10013
@@ -23,14 +26,45 @@
                     demo@example.com
                 </span>
             </div>
-            <div class="gi-container-social">
+            <div class="gi-social">
                 <i class="fa-brands fa-facebook"></i>
                 <i class="fa-brands fa-twitter-square"></i>
                 <i class="fa-brands fa-pinterest"></i>
                 <i class="fa-brands fa-dribbble"></i>
             </div>
         </div>
-
+    </section>
+    <section id="navbar">
+        <div class="container flex justify-content-between">
+            <div class="navbar-logo">
+                <img src="images/logo.png" alt="">
+            </div>
+            <div class="navbar-navigation flex align-items-center">
+                <ul class="flex">
+                    <li class="flex align-items-center"><a href="">Home</a></li>
+                    <li class="flex align-items-center"><a href="">About</a></li>
+                    <li class="flex align-items-center"><a href="">Service</a></li>
+                    <li class="flex align-items-center"><a href="">Pages</a></li>
+                    <li class="flex align-items-center"><a href="">Blog</a></li>
+                    <li class="flex align-items-center"><a href="">Contact</a></li>
+                    <li class="flex align-items-center"><a href=""><i class="fa-solid fa-magnifying-glass"></i></a></li>
+                    <li class="flex align-items-center"><a href="" class="btn btn-medium btn-radius-small btn-bg-secondary">Get a Quote</a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section id="font">
+        <div class="font-item">
+            <div class="container">
+                <div class="font-item-content flex flex-column justify-content-center align-items-start">
+                    <h1>Cyber Information From Hackers</h1>
+                    <h4>We bring over 35 years of public practice experience to clients our firm is a family business</h4>
+                    <a href="" class="btn-bg-secondary btn-large btn-radius-large">Our Solution</a>
+                    <br>
+                    <a href="" class="btn-bg-secondary btn-large btn-radius-large">Read More</a>
+                </div>
+            </div>
+        </div>
     </section>
     
 </body>
