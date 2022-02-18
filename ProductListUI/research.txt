@@ -8,9 +8,9 @@ Compilers--Hər hansı bir dildə yazılmış kodu başqa bir dilə çevirən av
 Interpreters-Proqramlaşdırma dilini başa düşülən dilə çevirən proqramdır. Bu proqram kodu birbasa yox hisse-hisse ve ya addim-addim cevirir.
 
 Translators- Proqramlaşdırma dilində yazıldıqdan sonra proqram gerçək maşın koduna çevrilməlidir ki, kompüterin mərkəzi prosessoru onu "başa düşüb" icra edə bilsin. Belə çevrilmə translator adlı proqramlar vasitəsilə aparılır.
-Assemblers-Assembler dilini maşın dilinə çevirmək üçün istifadə edilən tərcüməçidir.
+Assemblers-assembler dilini maşın dilinə çevirmək üçün istifadə edilən tərcüməçidir.
 
-Programming paradigms- proqramlaşdırma paradiqması yazı üslubu və proqram kodunun xüsusi bir şəkildə təşkili ilə bağlıdır.
+Programming paradigms- Proqramlaşdırma paradiqması yazı üslubu və proqram kodunun xüsusi bir şəkildə təşkili ilə bağlıdır.
 Debugging- Kompüter proqramlaşdırması və mühəndisliyində problemin müəyyənləşdirilməsini əhatə edən çoxmərhələli bir prosesdir.
 Boolean- Kompüter elmində boolean iki mümkün dəyəri olan məlumat növüdür: doğru və ya yanlış
 Char- char abbreviaturası C, C++, C# və Java kimi bəzi proqramlaşdırma dillərində qorunan açar söz kimi istifadə olunur. Verilənlərin bir simvolunu (hərf, rəqəm və s.) saxlayan məlumat növü olan  “character” sozunun qısaldılmasıdır.
