@@ -19,3 +19,41 @@ Command-line interface-CLI proqram təminatı və əməliyyat sistemlərini idar
 Low leverl language- Çox vaxt kompüterin ana dili kimi tanınan aşağı səviyyəli dil bir növ proqramlaşdırma dilidir. O, faktiki maşın təlimatlarını yazmağa çox yaxındır və kompüterin aparat komponentləri  ilə məşğul olur. O, kompüterin əməliyyat semantikasına nəzarət etmək üçün işləyir və proqramlaşdırma ideyalarının heç bir abstraksiyasını təmin etmir. Proqram təminatının hazırlanması üçün istifadə edilən yüksək səviyyəli dildən fərqli olaraq, aşağı səviyyəli kod insan tərəfindən oxunmur və çox vaxt sirli olur. Assembly dili və maşın dili aşağı səviyyəli proqramlaşdırma dillərinin iki nümunəsidir.
 High-level language- Daha çox  proqramın hazırlanmasına imkan verən və ümumiyyətlə kompüterin aparat arxitekturasından asılı olmayan hər hansı proqramlaşdırma dilidir.High level language kompüterdən daha yüksək abstraksiya səviyyəsinə malikdir və yaddaşın ünvanlanması və qeydiyyatdan istifadə kimi əsas aparat komponentlərindən daha çox proqramlaşdırma məntiqinə diqqət yetirir.
 Markup language- Işarələmə dili, mətn sənədinin strukturunu, formatını və ya hissələri arasındakı əlaqəni idarə etmək üçün ona daxil edilmiş simvollar toplusundan ibarət standart mətn kodlaşdırma sistemidir. Ən çox istifadə olunan işarələmə dilləri SGML (Standard Generalized Markup Language), HTML (Hypertext Markup Language) və XML (Extensible Markup Language). İşarələmə simvolları sənədin çap edildikdə və ya monitorda nümayiş etdirilərkən necə görünməsinə nəzarət etmək üçün cihaz (kompüter, printer, brauzer və s.) tərəfindən şərh edilə bilər. Beləliklə, işarələnmiş sənəd iki növ mətndən ibarətdir: göstəriləcək mətn və onun necə göstəriləcəyi ilə bağlı işarələmə dili.A
+
+Sual03: Veb səhifəsinin işləmə prinsipini anlayabilmək üçün aşağıdakı mövhumları araşdıraraq yazın
+-İnternet ve intranet arasındakı fərqlər nədir?
+  1-Intranet bir anda minlərlə kompüteri birləşdirir, İnternet isə milyonlarla kompüteri bir anda birləşdirir.
+   2- Intranetde bir qurum şəbəkəni idarə etmək üçün inzibati hüquqlara malikdir, İnternetdə isə heç bir qurum sistemə nəzarət etmir.
+   3- -Intranet LAN, WAN, CAN və ya HAN-dan istifadə edərək bir-birinə bağlanan kompüter sistemləri və cihazları toplusudur, halbuki İnternet bütün dünyada müxtəlif növ elektrik cihazlarını birləşdirən qlobal sistemdir.
+  4-İnternetlə müqayisədə intranetin əhatə dairəsi məhduddur.
+  5-Intranet daha az sayda aparat qurğusu tələb edir halbuki internet müxtəlif hardware cihazları tələb edir.
+
+-Server-side və client-side ifadələrinin mənası nədir?
+Client side və server side proqram kodunun harada işlədiyini təsvir edən veb inkişaf şərtləridir. Veb tərtibatçıları həmçinin bu fərqə frontend və backend kimi istinad edirler, baxmayaraq ki, Client side / server side və frontend/backend tam eyni deyil.
+	
+İnternetin çox hissəsi client-server modelinə əsaslanır. Bu modeldə istifadəçi cihazları bir-biri ilə əlaqə saxlamaq əvəzinə, lazım olan məlumatları əldə etmək üçün mərkəzdə yerləşən serverlərlə şəbəkə vasitəsilə əlaqə qurur. Noutbuklar, smartfonlar və stolüstü kompüterlər kimi son istifadəçi cihazları,  şirkətdən xidmət alan müştərilər kimi serverlərin “müştəriləri” hesab edilir. Müştəri cihazları serverlərə veb səhifələr və ya proqramlar üçün sorğular göndərir və serverlər cavablara xidmət edir.
+Veb tərtibatçıları üçün Client side termini müştəri cihazında baş verən hər hansı bir fəaliyyət deməkdir. Bu, mətn, video və şəkillər daxil olmaqla nümayiş olunan veb səhifə və ya fonda aparılan hər hansı əməliyyat və ya hesablama ola bilər.
+
+
+Server nədir və necə işləyir?
+Ən sadə səviyyədə server, kimsə müəyyən bir veb-sayta müraciət etdikdə cavab verən veb səhifələr üçün bir anbardır. Bu istək sadəcə olaraq veb ünvanını brauzerə daxil etmək və geri qayıtmaqdan ibarətdir. Server bu sorğuları portlar vasitəsilə izləyir və tələb olunan sayt səhifəsini çatdırmaq üçün demək olar ki, dərhal onların cavabını verir. Server sorğunu qəbul edib yoxladıqdan sonra veb-saytı təşkil edən müxtəlif elementləri toplayır və bu yığılmış məlumatı istifadəçinin veb brauzerinə ötürür
+
+Domain nədir və necə işləyir?
+
+
+Domen adı insanların vebsayta daxil olmaq üçün brauzerin URL sutununa yazdıqlarclearı veb saytın ünvanıdır.
+Veb brauzerinizə bir domen adını daxil etdiyiniz zaman, o, əvvəlcə Domain Name System (DNS) təşkil edən qlobal serverlər şəbəkəsinə sorğu göndərir.Bu serverlər daha sonra domenlə əlaqəli ad serverlərini axtarır və sorğunu həmin ad serverlərinə yönləndirirlər.
+
+HTTP nədir və nəyə lazımdır?
+
+
+Hypertext Transfer Protocol, istifadəçilərə  Şəbəkədə məlumat ötürməyə imkan verən paylanmış, birgə, hipermedia informasiya sistemləri üçün tətbiq protokoludur. HTTP ilk interaktiv, mətn əsaslı veb brauzerini yaratmaq üçün HTML ilə birlikdə icad edilmişdir.
+Sorğu-cavab protokolu olaraq, HTTP istifadəçilərə müştərilər və serverlər arasında hipermətn mesajlarını ötürməklə HTML faylları kimi veb resursları ilə qarşılıqlı əlaqə imkanı verir. HTTP müştəriləri ümumiyyətlə serverlərlə əlaqə saxlamaq üçün Transmission Control Protocol (TCP) bağlantılarından istifadə edirlər.
+
+URL və URI ifadələri arasındakı fərqləri izah edin.
+URL və ya Uniform Resource Locator ümumiyyətlə bir web ünvanı olaraq bilinir. Əsasən bir kompüter şəbəkəsində olan bir veb qaynağına istinad olaraq istifadə olunur. Həm də belə bir mənbəni əldə etmək üçün bir mexanizm olaraq dayanır. Bir URL xüsusi bir Vahid Resurs Yerləşdiricisi olaraq təyin edilə bilər. URL -lər əsasən veb səhifələrə daxil olmaq, faylları ötürmək, e -poçt məzmunu, verilənlər bazası üçün istifadə olunur və bir çox digər tətbiqlərdə istifadə olunur.
+
+URI və ya Uniform Resource Identifier , bir mənbəni müəyyən etmək üçün istifadə olunan bir simvol simvolu olaraq adlandırılır. Bu xüsusiyyət, şəbəkə üzərindəki mənbələri müəyyən etmək və onlarla əlaqə qurmaq üçün faydalıdır. Bu, müəyyən protokolların istifadəsi ilə əldə edilir. URI bir sintaksis və əlaqəli bir protokol ilə gəlir. Bir veb ünvanı və ya URL (Uniform Resource Locator) bir URI -nin ən çox yayılmış formasıdır.
+
+
+
